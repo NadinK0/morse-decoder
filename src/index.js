@@ -38,8 +38,6 @@ const MORSE_TABLE = {
   '**********': ' ',
 };
 
-const expr = "00101010100000000010001011101000101110100000111111**********00001011110000111111000010111000101110100000111010";
-
 function decode(expr) {
   let newArr = Array.from(expr);
   let newArrLetter = [];
