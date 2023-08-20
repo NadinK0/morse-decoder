@@ -79,4 +79,8 @@ res.forEach(function(el){
 return result.join('');
 }
 
+module.exports = {
+    decode
+}
+
 
